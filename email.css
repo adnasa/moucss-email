@@ -26,15 +26,17 @@ table td {
     border-bottom: 1px solid #ddd;
     padding: .2em 1em;
 }
-input[type=text],
-input[type=password],
-input[type=image],
+
 textarea { font: 99% helvetica,arial,freesans,sans-serif }
 select,
 option { padding: 0 .25em }
 optgroup { margin-top: .5em }
+
 pre,
-code { font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace }
+code { 
+    font: 12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace 
+}
+
 pre {
     margin: 1em 0;
     font-size: 12px;
@@ -71,32 +73,33 @@ a {
     color: #4183c4;
     text-decoration: none;
 }
+
 a:hover { text-decoration: underline }
 a code,
 a:link code,
 a:visited code { color: #4183c4 }
+
 h2,
 h3 { margin: 1em 0 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 { border: 0 }
+
 h1 {
     font-size: 170%;
-    padding-top: .5em;
-    margin-top: 1.5em;
 }
+
 h1:first-child {
     margin-top: 0;
-    padding-top: .25em;
     border-top: none;
 }
+
 h2 {
     font-size: 150%;
-    margin-top: 1.5em;
-    padding-top: .5em;
 }
 h3 { margin-top: 1em }
 hr { border: 1px solid #ddd }
@@ -117,7 +120,9 @@ ol ul {
 blockquote {
     margin: 1em 0;
     border-left: 5px solid #ddd;
-    padding-left: .6em;
+    padding: .2em 0 .2em .6em;
+    font-family: Georgia, serif;
+    font-style: italic;
     color: #555;
 }
 dt {
